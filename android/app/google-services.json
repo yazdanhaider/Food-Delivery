@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1052065662643",
+    "project_id": "food-delivery-by-yaz",
+    "storage_bucket": "food-delivery-by-yaz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052065662643:android:3d573ce646d4e3c656d2c6",
+        "android_client_info": {
+          "package_name": "com.example.food_delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewgrA2PYNl97FGc0PLCJm9ZWfmhe1qqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

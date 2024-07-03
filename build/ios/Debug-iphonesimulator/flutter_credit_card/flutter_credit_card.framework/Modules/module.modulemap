@@ -1,0 +1,11 @@
+framework module flutter_credit_card {
+  umbrella header "flutter_credit_card-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_credit_card.Swift {
+  header "flutter_credit_card-Swift.h"
+  requires objc
+}
