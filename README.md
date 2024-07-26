@@ -1,7 +1,12 @@
 # Zwiggy
 Zwiggy is a comprehensive food delivery app built with Flutter and Firebase, providing a seamless user experience for ordering food. It includes real-time data synchronization, secure authentication, and detailed order receipt generation, ensuring a smooth and efficient food ordering process.
 
-![Screenshot](https://github.com/yazdanhaider/Food-Delivery-App/assets/92041860/a2643e48-dee4-488e-a8cd-a4cad71ad17a)
+![1](https://github.com/user-attachments/assets/21241afd-d2de-4297-9dd9-488e1f0a40dd)
+![2](https://github.com/user-attachments/assets/d2b1dbd1-097e-4239-b52e-2fa039a298f7)
+![4](https://github.com/user-attachments/assets/cd73ce05-9a33-49c2-9272-ff4dcb449f75)
+![6](https://github.com/user-attachments/assets/da9b6c76-1e30-4acb-b99c-b06d8793b182)
+
+
 
 [![Made with Flutter](https://img.shields.io/badge/Made%20with-flutter-61DAFB.svg)](https://flutter.dev/) [![Release](https://img.shields.io/github/v/release/yazdanhaider/Foodie?label=Release&color=success&style=flat&include_prereleases)](https://github.com/yazdanhaider/Food-Delivery/)
 
@@ -23,6 +28,7 @@ Zwiggy is a comprehensive food delivery app built with Flutter and Firebase, pro
 - **Order Receipts:** Automatically generate detailed order receipts post-purchase, boosting customer satisfaction.
 - **Agile Development:** Incorporated user feedback for continuous improvement and timely delivery, reducing development cycle time.
 - **Payment Options:** Includes card payment method for convenient transactions.
+- ![3](https://github.com/user-attachments/assets/33ea038f-3531-4f67-8457-5e44bee981b2)
 
 ## Technology Stack
 
@@ -31,6 +37,7 @@ Zwiggy is a comprehensive food delivery app built with Flutter and Firebase, pro
 - **Firebase:** Back-end services for authentication, real-time database, and cloud storage.
 - **Provider:** State management solution used within the app.
 - **Agile Methodologies:** Applied for iterative development and user feedback integration.
+- ![5](https://github.com/user-attachments/assets/4584c8b4-b903-4ace-8d82-0c03bbd5a2f0)
 
 ## License
 
