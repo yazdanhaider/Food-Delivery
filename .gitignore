@@ -1,0 +1,45 @@
+firebase.json
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.pub-cache/
+.pub/
+/ios/Flutter/.last_build_id
+
+# Generated files
+*.iml
+*.log
+*.lock
+*.pyc
+*.swp
+*.DS_Store
+
+# macOS related
+macos/Flutter/ephemeral/
+
+# Windows related
+windows/Flutter/ephemeral/
+
+# Linux related
+linux/Flutter/ephemeral/
+
+# Web related
+web/.dart_tool/
+
+# Android related
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/build/
+
+# Xcode related
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+
+# Packages
+pubspec.lock
