@@ -71,44 +71,49 @@ class _PaymentPageState extends State<PaymentPage> {
         foregroundColor: Theme.of(context).colorScheme.onBackground,
         title: const Text("Checkout"),
       ),
-      body: Column(
-        children: [
-          // Credit card
-          CreditCardWidget(
-            cardNumber: cardNumber,
-            expiryDate: expiryDate,
-            cardHolderName: cardHolderName,
-            cvvCode: cvvCode,
-            showBackView: isCvvFocused,
-            onCreditCardWidgetChange: (p0) {},
-          ),
 
-          // Credit card form
-          CreditCardForm(
-            cardNumber: cardNumber,
-            expiryDate: expiryDate,
-            cardHolderName: cardHolderName,
-            cvvCode: cvvCode,
-            onCreditCardModelChange: (data) {
-              setState(() {
-                cardNumber = data.cardNumber;
-                expiryDate = data.expiryDate;
-                cardHolderName = data.cardHolderName;
-                cvvCode = data.cvvCode;
-                isCvvFocused = data.isCvvFocused;
-              });
-            },
-            formKey: formKey,
-          ),
-
-          const Spacer(),
-
-          MyButton(
-            onTap: userTappedPay,
-            text: "Pay Now",
-          ),
-          const SizedBox(height: 25),
-        ],
+      // Add `SingleChildScrollView` to resolve the overflow error make the content scrollable
+      body: SingleChildScrollView(
+        child: Column(
+          children: [
+            // Credit card
+            CreditCardWidget(
+              cardNumber: cardNumber,
+              expiryDate: expiryDate,
+              cardHolderName: cardHolderName,
+              cvvCode: cvvCode,
+              showBackView: isCvvFocused,
+              onCreditCardWidgetChange: (p0) {},
+            ),
+        
+            // Credit card form
+            CreditCardForm(
+              cardNumber: cardNumber,
+              expiryDate: expiryDate,
+              cardHolderName: cardHolderName,
+              cvvCode: cvvCode,
+              onCreditCardModelChange: (data) {
+                setState(() {
+                  cardNumber = data.cardNumber;
+                  expiryDate = data.expiryDate;
+                  cardHolderName = data.cardHolderName;
+                  cvvCode = data.cvvCode;
+                  isCvvFocused = data.isCvvFocused;
+                });
+              },
+              formKey: formKey,
+            ),
+        
+            // `Spacer` are useless and that not working in SIngleChildScrollView their for comment
+            // const Spacer(),
+        
+            MyButton(
+              onTap: userTappedPay,
+              text: "Pay Now",
+            ),
+            const SizedBox(height: 25),
+          ],
+        ),
       ),
     );
   }
