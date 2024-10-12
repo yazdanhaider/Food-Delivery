@@ -1,3 +1,7 @@
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?color=FFB07C&size=50&width=1000&height=80&lines=Welcome-to-ZWIGGY-Food-Delivery-App"/>
+</div>
+
 # Zwiggy
 Zwiggy is a comprehensive food delivery app built with Flutter and Firebase, providing a seamless user experience for ordering food. It includes real-time data synchronization, secure authentication, and detailed order receipt generation, ensuring a smooth and efficient food ordering process.
 
