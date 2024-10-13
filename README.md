@@ -68,10 +68,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-## Contribute
+## Contributing
 
-Contributions are welcome. Please read our [contributing guidelines](https://github.com/yazdanhaider/Food-Delivery/blob/main/CONTRIBUTING.md) before contributing.
+We love contributors. Here's how you can contribute:
 
+- Check [Contributor's guideline](https://github.com/yazdanhaider/Food-Delivery/blob/master/CONTRIBUTING.md).
+- Open an issue if you believe you've encountered a bug!
+- Make a pull request to add new features/make quality-of-life improvements/fix bugs.
+
+<a href="https://github.com/yazdanhaider/Food-Delivery/graphs/contributors">
+</a>
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yazdanhaider/Food-Delivery&type=Date)](https://star-history.com/#yazdanhaider/Food-Delivery&Date)
 ## Facing any Issue?
 
 Have a look at some [common Issues](https://github.com/yazdanhaider/Food-Delivery/wiki/Common-Issues) that you might face. If your problem is not there, feel free to open an Issue :)
