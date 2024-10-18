@@ -79,6 +79,12 @@ We love contributors. Here's how you can contribute:
 <a href="https://github.com/yazdanhaider/Food-Delivery/graphs/contributors">
 </a>
 
+# Thanks to all contributors
+<a href="https://github.com/yazdanhaider/Food-Delivery/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=yazdanhaider/Food-Delivery" />
+</a>
+
+# Star history
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yazdanhaider/Food-Delivery&type=Date)](https://star-history.com/#yazdanhaider/Food-Delivery&Date)
 ## Facing any Issue?
